@@ -1,0 +1,120 @@
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="1.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  </head>
+    <body></br>
+      <p style="float: left; clear: left">
+      <img src="1.png" width="25%"height="auto"></p>
+      <p style="font-size: 15px;">THE WORLD'S LARGEST WEB DEVELOPER SITE</p>
+
+      <div class="page">
+        <div class="h">
+          <nav class="navbar navbar-default">
+            <div class="container-fluid">
+              <div class="navbar-header">
+                  <a class="navbar-brand" href="#"></a>
+                </div>
+                <ul class="nav navbar-nav">
+                  <li><a href="#">Home</a></li>
+                  <li><a href="#">HTML</a></li>
+                  <li><a href="#">CSS</a></li>
+                  <li><a href="#">JAVASCRIPT</a></li>
+                  <li><a href="#">SQL</a></li>
+                  <li><a href="#">PHP</a></li>
+                  <li><a href="#">BOOTSTRAP</a></li>
+                  <li><a href="#">HOW TO</a></li>
+                  <li><a href="#">JQUERY</a></li>
+                  <li><a href="#">MORE</a></li>
+                  <li><a href="#">REFERNCES</a></li>
+                  <li><a href="#">EXAMPLES</a></li>
+                </ul>
+                </div>
+              </nav>
+        </div>
+        <div class="row">
+
+          <div class="col-sm-2">
+
+              <div class="vertical-menu">
+                <h2 style="margin-top: 0px;">PHP Tutorial</h2>
+                <a href="1.html" class="active">Home</a>
+
+                <a href="intro.html">PHP Intro</a>
+                <a href="install.html">PHP Install</a>
+                <a href="syntax.html">PHP Syntax</a>
+                <a href="var.html">PHP Variables</a>
+                <a href="ech.html">PHP Echo/Print</a>
+                <a href="dt.html">PHP DATA Types</a>
+                <a href="stri.html">PHP Strings</a>
+                <a href="consta.html">PHP Constants</a>
+                <a href="oper.html">PHP Operators</a>
+                <a href="if.html">PHP If...Else..Elseif</a>
+                <a href="switch.html">PHP Switch</a>
+                <a href="loop.html">PHP While Loops</a>
+                <a href="for.html">PHP for loops</a>
+                <a href="func.html">PHP Functions</a>
+                <a href="arr.html">PHP Arrays</a>
+                <a href="sarra.html">PHP Sorting Arrays</a>
+                <a href="sg.html">PHP Superglobals</a>
+
+              </div>
+          </div>
+
+          <div class="col-sm-8">
+            <h1 style="margin-top:90px;">PHP 5 Global Variables - Superglobals</h1>
+
+            <a href="loop.html" class="previous">&laquo; Previous</a>
+            <a href="index.html" class="next">Next &raquo;</a></br><br/>
+            <hr>
+            <p style="font-size: 16px;">Superglobals were introduced in PHP 4.1.0, and are built-in variables that are always available in all scopes.</p></br>
+            <hr>
+            <h2>PHP Global Variables - Superglobals</h2>
+            <div class="p1>"</br>
+            <p style="font-size: 16px;">Several predefined variables in PHP are "superglobals", which means that they are always accessible, regardless of scope - and you can access them from any function, class or file without having to do anything special.</p></br>
+            <p style="font-size: 16px;">The PHP superglobal variables are:</p></br>
+            <ul>
+              <li>$GLOBALS</li>
+              <li>$_SERVER</li>
+              <li>$_REQUEST</li>
+              <li>$_POST</li>
+              <li>$_GET</li>
+              <li>$_FILES</li>
+              <li>$_ENV</li>
+              <li>$_COOKIE</li>
+              <li>$_SESSION</li>
+            </ul></div>
+            <hr>
+            <h2>PHP $GLOBALS</h2>
+            <p style="font-size: 16px;">$GLOBALS is a PHP super global variable which is used to access global variables from anywhere in the PHP script (also from within functions or methods).</p></br>
+            <p style="font-size: 16px;">PHP stores all global variables in an array called $GLOBALS[index]. The index holds the name of the variable.</p></br>
+            <p>The example below shows how to use the super global variable $GLOBALS:</p><br>
+            <hr>
+            <h2>PHP $_SERVER</h2>
+            <p style="font-size: 16px;">$_SERVER is a PHP super global variable which holds information about headers, paths, and script locations.</p></br>
+            <p style="font-size: 16px;">The example below shows how to use some of the elements in $_SERVER:</p></br>
+            <h2>PHP $_REQUEST</h2>
+          <p style="font-size: 16px;">  PHP $_REQUEST is used to collect data after submitting an HTML form.</p></br>
+          <p style="font-size: 16px;">The example below shows a form with an input field and a submit button. When a user submits the data by clicking on "Submit", the form data is sent to the file specified in the action attribute of the <form> tag. In this example, we point to this file itself for processing form data. If you wish to use another PHP file to process form data, replace that with the filename of your choice. Then, we can use the super global variable $_REQUEST to collect the value of the input field:</p></br>
+            <h2>PHP $_POST</h2>
+            <p style="font-size: 16px;">PHP $_POST is widely used to collect form data after submitting an HTML form with method="post". $_POST is also widely used to pass variables.</p></br>
+            <p style="font-size: 16px;">The example below shows a form with an input field and a submit button. When a user submits the data by clicking on "Submit", the form data is sent to the file specified in the action attribute of the <form> tag. In this example, we point to the file itself for processing form data. If you wish to use another PHP file to process form data, replace that with the filename of your choice. Then, we can use the super global variable $_POST to collect the value of the input field:</p></br>
+            <h2>PHP $_GET</h2>
+            <p style="font-size: 16px;">PHP $_GET can also be used to collect form data after submitting an HTML form with method="get".</br>
+
+              $_GET can also collect data sent in the URL.</br>
+              When a user clicks on the link "Test $GET", the parameters "subject" and "web" are sent to "test_get.php", and you can then access their values in "test_get.php" with $_GET.</p></br>
+
+            <a href="sarra.html" class="previous">&laquo; previous</a>
+            <a href="#" class="next">Next &raquo;</a></br>
+            <hr>
+          </div>
+          </div>
+          </div>
+          </div>
+
+          </body>
+          </html>
